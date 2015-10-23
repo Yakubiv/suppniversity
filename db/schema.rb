@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151023103312) do
+ActiveRecord::Schema.define(version: 20151023115507) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -941,6 +941,7 @@ ActiveRecord::Schema.define(version: 20151023103312) do
     t.string   "confirmation_token"
     t.datetime "confirmed_at"
     t.datetime "confirmation_sent_at"
+    t.integer  "points"
   end
 
   add_index "spree_users", ["deleted_at"], name: "index_spree_users_on_deleted_at", using: :btree
