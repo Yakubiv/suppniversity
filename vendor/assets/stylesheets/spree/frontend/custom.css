@@ -1,0 +1,10 @@
+#link-to-cart{
+  background-color: red;
+}
+
+.header_phone{
+  background-color: white;
+  position: absolute;
+  top: 0px;
+  right: 400px;
+}
